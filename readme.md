@@ -2,25 +2,25 @@
 
 ## Setup del repositorio
 
-cd Desktop\ (Nos movemos al escritorio para trabajar) mejor  
-mkdir <NuevaCarpeta> (Creamos un repositorio con el nombre que queramos)  
-cd <NuevaCarpeta> (Nos movemos al repositorio)
+cd Desktop\ (Nos movemos al escritorio para trabajar mejor)  
+mkdir *Repositorio* (Creamos un repositorio)    
+cd *Repositorio* (Nos movemos al repositorio)
 
 
 ## Trabajando con la Staging Area
 git status (Checkear Work Dir y Stag Area)  
 git add . / git add <documento> (Añadir <documento> a Stag Area)  
 git rm --cached <documento> (Devolver el <documento> a Work Dir)  
-git commit -m "texto”> (Comitear lo añadido)  
+git commit -m "*texto*" (Comitear lo añadido con un mensaje)  
 git log (Log de commits)  
-git log --all --decorate --oneline --graph (A DOG)  
-git checkout [commit] (Moverse a [commit])  
+git log --all --decorate --oneline --graph (Log formato "A DOG")  
+git checkout *número de commit* (Moverse a un commit específico)  
 git checkout master (Volver a master)  
-git checkout master~[n] (Bajar [n] commits desde master)  
+git checkout master~*número* (Bajar *número* commits desde master)  
 
 ## Trabajando con el Repositorio Remoto
 git remote -v (Ver servidor)  
-gut push (Pushear a github)  
+git push (Pushear a github)  
 git pull (Pullear de github)  
-git clone [link] (Clonar [link] repositorio)  
+git clone *link* (Clonar repositorio con un link)  
 git remote remove origin (Eliminar vinculo entre repo y github)
