@@ -1,3 +1,7 @@
+
+
+
+
 # Comandos GIT
 
 ## Setup del repositorio
